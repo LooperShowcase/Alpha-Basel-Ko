@@ -1,0 +1,53 @@
+p {
+  color: black;
+  font-size: large;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Smooch Sans", sans-serif;
+  background-color : white
+
+  ;
+}
+
+/* div {
+  background-color: rgba(0, 255, 195, 0.579);
+} */
+/* 
+#one {
+  color: blue;
+}
+
+#tow {
+  background-color: red;
+} */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f300;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #0412aa;
+}
